@@ -3,8 +3,6 @@
 Classifies Mandarin tones (1–4) from MP3 audio using Mel spectrograms.
 The notebook trains **two models** (CNN and Feed-Forward) and compares them by **validation accuracy** and **average per-class recall**.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<YOUR_GH_USER>/<REPO_NAME>/blob/main/tone_classifier.ipynb)
-
 ## Highlights
 - MP3 → `torchaudio.load` → Mel Spectrogram (`n_mels=64` by default)
 - Two baselines: **CNN** (conv blocks + GAP + Linear) and **MLP** (flatten + 2 Linear)
