@@ -20,7 +20,5 @@ The notebook trains **two models** (CNN and Feed-Forward) and compares them by *
 (Your numbers will vary with data.)
 
 ## Data
-Dataset path is not included in the repo. Use your own MP3s or point to a public dataset.
+Dataset used was the Tone Perfect dataset from Michigan State University (https://tone.lib.msu.edu/). 
 
-## License
-MIT © <Your Name>
